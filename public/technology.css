@@ -1,0 +1,85 @@
+.technology {
+  padding: 0px 15px;
+  margin-top: 60px;
+  max-width: 1180px;
+  margin: 60px auto 0px;
+}
+.technology-conteiner {
+  display: flex;
+  gap: 15px;
+}
+.technology-conteiner-box {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+.technology-conteiner-img1 {
+  height: 170px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/-26062024-1719376236-861907513-738a9e1c-0c99-43cf-8d24-3343976ed8e5.jpg);
+}
+.technology-conteiner-img2 {
+  height: 170px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319884-13062024-1718265519-851207572-tsahilgaanmashin.jpg);
+}
+.technology-conteiner-img3 {
+  height: 170px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319881-13062024-1718264359-476055606-Apple.jpg);
+}
+.technology-conteiner-img4 {
+  height: 170px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319824-12062024-1718167457-2039483961-gagnuur.jpg);
+}
+.technology-conteiner p {
+  min-height: 65px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.technology-conteiner-text {
+  padding: 10px;
+}
+.technology-conteiner-box2 {
+  display: none;
+  flex-direction: column;
+  height: 300px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+.technology-conteiner-box3 {
+  display: none;
+  flex-direction: column;
+  height: 300px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+.technology-title {
+  margin-bottom: 20px;
+}

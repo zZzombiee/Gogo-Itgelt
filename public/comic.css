@@ -1,0 +1,59 @@
+.comic {
+  padding: 0px 15px;
+  margin-top: 60px;
+  max-width: 1180px;
+  margin: 60px auto 0px;
+}
+.comic-conteiner {
+  display: flex;
+  gap: 15px;
+}
+.comic-conteiner-box {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+.comic-conteiner-img {
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/comic/2023/06/21/3773/comic-153411-688093610.jpeg);
+}
+.comic-conteiner-img1 {
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg);
+}
+.comic-conteiner p {
+  min-height: 65px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.comic-conteiner-text {
+  padding: 10px;
+}
+.comic-title {
+  margin-bottom: 20px;
+}
+.comic-conteiner-box1 {
+  display: none;
+  flex-direction: column;
+  height: 330px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}

@@ -1,0 +1,230 @@
+@media only screen and (min-width: 500px) {
+  .interview-img-conteiner {
+    width: 70%;
+    margin: 0px auto 15px;
+  }
+  .footer-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .story-two-conteiner {
+    display: flex;
+    gap: 15px;
+  }
+  .story-three-conteiner {
+    display: none;
+  }
+  .story-slider {
+    display: none;
+  }
+  .tab-today-text-sub {
+    display: none;
+  }
+  .tab-today-img-conteiner {
+    width: auto;
+  }
+  .tab-today-text-centeiner {
+    width: auto;
+  }
+  .tab-today-img {
+    width: 105px;
+    height: 110px;
+  }
+  .tab-today-text-title {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .tab-today-conteiner {
+    padding: 0px 15px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .story-three-conteiner {
+    display: flex;
+    gap: 15px;
+  }
+  .story {
+    padding: 0px 30px;
+  }
+  .story-two-conteiner {
+    display: none;
+  }
+  .story-slider {
+    display: none;
+  }
+  .interview-img-conteiner {
+    width: 100%;
+    margin: 0px;
+  }
+  .interview-img-conteiner-first {
+    width: 60%;
+    margin: 0px auto 15px;
+  }
+  .interview-img-conteiner-under-1 {
+    display: flex;
+    gap: 15px;
+  }
+  .interview-img-conteiner-under-1 div {
+    width: 50%;
+    padding: 20px 20px 25px;
+  }
+  .interview-conteiner {
+    padding: 0px 30px;
+  }
+  .style-conteiner-box2 {
+    display: flex;
+  }
+  .style {
+    padding: 0px 30px;
+  }
+  .technology {
+    padding: 0px 30px;
+  }
+  .technology-conteiner-box2 {
+    display: flex;
+  }
+  .comic-conteiner-box1 {
+    display: flex;
+  }
+  .comic-conteiner-box {
+    width: 50%;
+  }
+  .comic {
+    padding: 0px 30px;
+  }
+  .video-conteiner {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+  }
+  .video-conteiner-second {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+  }
+  .video-img-conteiner {
+    width: 50%;
+  }
+  .footer-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
+  .footer-menu {
+    margin-top: 0px;
+  }
+  .footer {
+    padding: 50px 30px;
+  }
+  .footer-icon-conteiner {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .story-three-conteiner {
+    display: none;
+  }
+  .story-two-conteiner {
+    display: none;
+  }
+  .story-slider {
+    display: flex;
+  }
+  .tab-today-conteiner {
+    padding: 0px 40px;
+    max-width: 770px;
+  }
+  .story {
+    padding: 0px 40px;
+  }
+  .tab-conteiner {
+    display: flex;
+    margin: auto;
+    max-width: 1180px;
+    gap: 30px;
+    margin-top: 50px;
+    padding-right: 40px;
+  }
+  .banner-conteiner-screen {
+    display: block;
+    font-size: 10px;
+    color: gray;
+  }
+  .banner-conteiner {
+    display: none;
+  }
+  .tab-today {
+    border-bottom: none;
+  }
+  .tab-today-text-title {
+    font-size: 19px;
+  }
+  .tab-right-conteiner {
+    border-left: 1px solid rgba(211, 211, 211, 0.58);
+  }
+  .interview-conteiner {
+    max-width: 1180px;
+    padding: 0px 40px;
+  }
+  .interview-img-conteiner {
+    display: flex;
+    gap: 15px;
+  }
+  .interview-img-conteiner-first {
+    width: 50%;
+    height: auto;
+  }
+  .interview-img-conteiner-under {
+    width: 50%;
+  }
+  .style-conteiner-box3 {
+    display: flex;
+  }
+  .style {
+    padding: 0px 40px;
+  }
+  .technology {
+    padding: 0px 40px;
+  }
+  .technology-conteiner-box3 {
+    display: flex;
+  }
+  .comic {
+    padding: 0px 40px;
+  }
+  .video-conteiner {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+  }
+  .video-conteiner-third {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .hover-text {
+    display: none;
+  }
+  .tab-right-conteiner {
+    display: none;
+  }
+  .tab-today-title-conteiner {
+    display: none;
+  }
+  .tab-today-title-conteiner {
+    display: none;
+  }
+  .tab-today-conteiner {
+    margin-top: 10px;
+  }
+  .under-header-banner-conteiner {
+    display: none;
+  }
+}

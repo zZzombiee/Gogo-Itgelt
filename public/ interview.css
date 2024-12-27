@@ -1,0 +1,103 @@
+.interview-conteiner {
+  padding: 0px 15px;
+  margin: 60px auto 0px;
+}
+.interview-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.interview-title-img {
+  width: 20px;
+  height: 25px;
+}
+.interview-title-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.interview-img-conteiner {
+  max-width: 100%;
+  margin: 0px auto;
+}
+.interview-img-conteiner-img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 350px;
+  border-radius: 5px;
+}
+.interview-img-conteiner-first {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+  max-width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/06/-13062024-1718238136-463633005-DSC084481.JPG);
+}
+.interview-img-conteiner-category {
+  background: #407ce8;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.interview-img-conteiner-sub {
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+.interview-img-conteiner-next {
+  padding-top: 10px;
+  font-weight: 550;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.15);
+  font-size: 12px;
+}
+.icons-test {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.interview-img-conteiner-second {
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/05/319045-21052024-1716251435-988856390-shatsanbarilga_dunjigarav_galdavtsanbarilga-5-155756-13325088311.jpeg);
+}
+.interview-img-conteiner-under-1 div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+  max-width: 100%;
+  border-radius: 5px;
+  height: 245px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+.interview-img-conteiner-third {
+  background-image: url(./2th\ img.jpg);
+}
+.interview-img-conteiner-fourth {
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/05/318606-07052024-1715062467-673307045-414706383_122146674050023665_4489857163949139215_n.jpg);
+}
+.interview-img-conteiner-fifth {
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/05/318699-09052024-1715225876-1715075915-Tumursukh_zurag1.jpg);
+}
+.interview-img-conteiner-first:hover {
+  /* height: 370px; */
+  /* width: 110%; */
+  transition: all 0.5s ease-in-out;
+}

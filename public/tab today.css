@@ -1,0 +1,155 @@
+.tab-today-conteiner {
+  padding: 0px 30px;
+  width: 100%;
+}
+.tab-today {
+  display: flex;
+  margin-bottom: 0;
+  padding: 10px 0px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  gap: 20px;
+}
+.tab-today-img-conteiner {
+  width: 30%;
+  cursor: pointer;
+}
+.tab-today-img {
+  height: 140px;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.tab-today-text-conteiner {
+  width: 70%;
+}
+.tab-today-text-title {
+  font-weight: 550;
+  font-size: 17px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.tab-today-text-sub {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 15px;
+}
+.tab-toady-icon-conteiner {
+  display: flex;
+  gap: 30px;
+}
+.tab-conteiner i {
+  color: #888888;
+  font-size: 12px;
+}
+.tab-today-icon-text {
+  font-size: 12px;
+  font-family: normal Helvetica Neue, sans-serif, Arial;
+  padding-left: 5px;
+}
+.banner-conteiner {
+  /* width: 100%; */
+  font-size: 10px;
+  color: gray;
+}
+.banner-conteiner-screen {
+  display: none;
+}
+.banner-contert {
+  width: 100%;
+}
+.tab-today-next {
+  margin: 20px 0px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #f8f8f8;
+  border: 1px solid #f2f2f2;
+  gap: 10px;
+}
+.tab-today-next-text {
+  font-weight: 700;
+  font-size: 16px;
+}
+.tab-today-next-img {
+  height: 21px;
+  width: 17px;
+}
+.tab-today-title-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.tab-today-title-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.tab-today-title {
+  display: flex;
+  gap: 5px;
+}
+
+.calendar {
+  background-color: #efefef;
+  height: 7px;
+  border-radius: 20px;
+  width: 100%;
+}
+.calendar.text {
+  font-size: 13px;
+  text-align: center;
+  color: #efefef;
+}
+.tab-today-title-box {
+  display: flex;
+  width: 15%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.tab-today-title-box-today {
+  display: flex;
+  width: 19%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.tab-today-title-box-today div {
+  color: #407ce8;
+}
+.calendar-today {
+  background: #407ce8;
+  height: 7px;
+  border-radius: 20px;
+  width: 100%;
+}
+.calendar-shower {
+  background: #efefef;
+  height: 27px;
+  line-height: 18px;
+  width: 27px;
+  border-radius: 5px;
+  text-align: center;
+}
+.hover-tab-img:hover .tab-today-img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.hover-tab-img {
+  overflow: hidden;
+  width: 100%;
+  height: 140px;
+  border-radius: 5px;
+  position: relative;
+}

@@ -1,0 +1,54 @@
+.tab-trend-conteiner {
+  margin-top: 30px;
+  background: #fdfaf5;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+.tab-trend-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 80px;
+  width: 100%;
+  padding-left: 70px;
+}
+.tab-trend-title-text {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 550;
+}
+.tab-trend-text {
+  width: 230px;
+}
+.tab-trend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.tab-trend-icon-text {
+  font-size: 12px;
+}
+.tab-trend-icon-conteiner {
+  display: flex;
+  gap: 15px;
+}
+.tab-trend-number {
+  font-weight: 700;
+  color: #e00034;
+  font-size: 46px;
+  line-height: 46px;
+  padding-right: 10px;
+}
+.tab-trend-border {
+  font-family: normal Helvetica Neue, sans-serif, Arial;
+  display: flex;
+  border-bottom: 1px dashed rgba(211, 211, 211, 0.701);
+  padding: 20px 0px;
+}
+.hover-special:hover {
+  transform: scale(1.02);
+}
+div {
+  transition: 0.2s ease-in-out;
+}

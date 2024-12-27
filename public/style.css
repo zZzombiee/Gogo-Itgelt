@@ -1,0 +1,98 @@
+.style {
+  padding: 0px 15px;
+  margin-top: 60px;
+  max-width: 1180px;
+  margin: 60px auto 0px;
+}
+.style-conteiner {
+  display: flex;
+  gap: 15px;
+}
+.style-conteiner-box {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+.style-conteiner-img1 {
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2020/05/256362-29052020-1590736128-854446703-thumbnail_Naan_edited.jpg);
+}
+.style-conteiner p {
+  min-height: 65px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.style-conteiner-img2 {
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2020/10/262213-09102020-1602228344-997809654-thumbnail_crepe.jpg);
+}
+.style-conteiner-img3 {
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2017/06/209166-12062017-1497226945-1445687423-189995-04082016-1470265597-704831987-HALUUN.jpeg);
+}
+.style-conteiner-img4 {
+  height: 230px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2024/06/319838-12062024-1718180937-1014262284-photo1717654249.jpg);
+}
+.style-conteiner-text {
+  padding: 10px;
+}
+.icon {
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+  padding-top: 5px;
+  margin-top: 10px;
+  color: #cbcbcb;
+  font-size: 13px;
+  gap: 20px;
+}
+.icon-text {
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #888888;
+  padding-left: 5px;
+}
+.style-conteiner-box2 {
+  display: none;
+  flex-direction: column;
+  height: 360px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+.style-conteiner-box3 {
+  display: none;
+  flex-direction: column;
+  height: 360px;
+  width: 50%;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
